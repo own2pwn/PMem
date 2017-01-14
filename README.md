@@ -1,4 +1,4 @@
 # PMem
-Physical Memory R/W
+Physical Memory Read/Write
 
 MSI owns WinIo64.sys license. 
