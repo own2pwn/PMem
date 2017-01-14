@@ -31,7 +31,6 @@ class Memory
 private:
 	Driver * m_Driver;
 
-	HMODULE client_dll, engine_dll;
 public:
 	Memory(Driver * driver = 0); ~Memory();
 	bool  ReadPhysMem(PVOID pbPhysAddr, PVOID pdwPhysVal, size_t size);
